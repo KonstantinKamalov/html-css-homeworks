@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #18191F;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*title*/
+
+.title{
+    width:730px;
+    margin-top: 64px;
+}
+
+.title h1{
+    font-weight: 800;
+    font-size: 48px;
+    color: #18191F;
+}
+
+/*photo-galey*/
+
+.photo-galey{
+    box-sizing: border-box;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    letter-spacing: -4px;    /*здесь ltter-spacing: -4 Для того чтобы убрать отступ справа между блоками photo-block*/
+}
+
+
+.photo-block{
+    letter-spacing: normal;
+    display: inline-block;
+    width: 255px;
+    height: 268px;
+    margin-left: 30px;
+}
+
+.photo-block:first-child{
+    margin-left: 0;
+}
+
+.headline{
+    margin-top: 8px;
+    
+}
+.headline h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
