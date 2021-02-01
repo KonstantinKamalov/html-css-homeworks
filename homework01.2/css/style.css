@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #18191F;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    margin-top: 64px;
+    width: 540px;
+}
+
+.title h1{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    margin-right: 38px;
+}
+
+.row{
+    margin-top: 48px;
+}
+
+.advantage{
+    display: inline-block;
+    margin-left: 30px;
+}
+.advantage:first-child{
+    margin-left: 0;
+}
+
+.icon{
+    display: inline-block;
+    margin-left: -6px;
+}
+.icon img{
+    margin-bottom: 20px;
+}
+
+.details{
+    display: inline-block;
+    width:428px;
+    margin-left: 40px;
+}
+
+.details h2{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.details p{
+    padding-right: 27px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer{
+    margin-top: 64px;
+}
