@@ -1,0 +1,141 @@
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    color: #18191f;
+    margin: 0;    /*сброс отступов браузера*/
+    box-sizing: border-box; 
+}
+
+a {
+    text-decoration: none;
+    color: #18191f;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;    /*сброс отступов браузера*/
+}
+
+.testimonial-6 {
+    background-color: #D5FAFC;
+}
+
+/*left-section start*/
+
+.left-section {
+    text-align: right;
+    display: inline-block;
+    width: 48.9%;
+    background-color: #2EC5CE;
+    vertical-align: middle;
+}
+
+.left-section-text {
+    width: 445px;
+    margin-left: auto;
+    margin-right: 95px;
+    text-align: left;
+    margin-top: 246px;
+    margin-bottom: 246px;
+}
+
+.left-section-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.left-section-description {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/*left-section end*/
+
+/*right-section start*/
+
+.right-section {
+    width: 570px;
+    padding: 40px;
+    margin-right: auto;
+    margin-left: -4px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ffffff;
+}
+
+.left-section-quotes {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 26px;
+    opacity: 0.3;
+}
+
+.client-avatar {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.client-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+.client-info-name {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.client-info-name:hover {
+    opacity: 0.8;
+}
+
+.client-info-position {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.feedback {
+    width: 490px;
+    margin-top: 26px;
+    margin-bottom: 48px;
+}
+
+.feedback-content {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.left-section-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 278px;
+    margin-right: 20px;
+}
+
+#prev:hover, 
+#next:hover {
+    opacity: 0.7;
+}
+
+#next {
+    margin-left: 40px;
+}
+
+
+/*right-section end*/
