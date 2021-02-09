@@ -2,7 +2,8 @@ body {
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     color: #18191f;
-    margin: 0;    /*сброс отступов браузера*/
+    /*сброс отступов браузера*/
+    margin: 0;
     box-sizing: border-box; 
 }
 
@@ -12,8 +13,8 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    margin: 0;    /*сброс отступов браузера*/
-}
+    /*сброс отступов браузера*/
+    margin: 0;
 
 .testimonial-6 {
     background-color: #D5FAFC;
