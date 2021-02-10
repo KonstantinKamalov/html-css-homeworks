@@ -1,0 +1,145 @@
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    color: #18191f;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+a {
+    text-decoration: none;
+    color: #18191f;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-7 {
+    background-color: #D5FAFC;
+    padding-top: 168px;
+    padding-bottom: 80px;
+}
+
+/*left-section start*/
+
+.left-section {
+    width: 50%; 
+    vertical-align: middle;
+    display: inline-block;
+    /*здесь пришлось мудрить*/
+    margin-top: -110px;
+}
+
+.left-section__content {
+    position: relative;
+    width: 445px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.left-section__quotes {
+    position: absolute;
+    left:-95px;
+    top: -56px;
+}
+
+.left-section__title {
+    position: relative;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.left-section__description {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+/*left-section end*/
+
+/*right-section start*/
+
+.right-section {
+    display: inline-block;
+    width: 50%;
+    margin-left: -4px;
+    vertical-align: middle;
+}
+
+.right-section__content {
+    width: 445px;
+    margin-left: 15px;
+}
+
+/*right-section end*/
+
+/*общие стили*/
+
+.testimonial-cards {
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.testimonial-logo {
+    /*странный отступ на картинке*/
+    margin: -8px 0px;
+}
+
+.feedback {
+    position: relative;
+    margin: 32px 0px 0px 32px;
+}
+
+.feedback__text {
+    position: relative;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.feedback__quotes {
+    opacity: 0.4;
+    position: absolute;
+    left: -32px;
+}
+
+.person-details__name {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.person-details__name:hover {
+    opacity: 0.8;
+}
+
+.person-details__position {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #969BAB;
+}
+
+/*дополнительные стили*/
+
+.small-right-card {
+    margin-top: 32px;
+    margin-right: 95px;
+}
+
+.small-left-card {
+    margin-left: 95px;
+}
