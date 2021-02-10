@@ -15,6 +15,7 @@ a {
 h1, h2, h3, h4, h5, h6, p {
     /*сброс отступов браузера*/
     margin: 0;
+}
 
 .testimonial-6 {
     background-color: #D5FAFC;
