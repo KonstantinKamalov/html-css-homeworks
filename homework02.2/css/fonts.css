@@ -22,6 +22,17 @@
 
 @font-face {
     font-family:"Manrope";
+    font-weight: 500;
+    font-style: normal;
+    src:local("Manrope"),
+    url(../fonts/Manrope-Medium.woff2),
+    url(../fonts/Manrope-Medium.woff),
+    url(../fonts/Manrope-Medium.ttf),
+    url(../fonts/Manrope-Medium.eot);
+}
+
+@font-face {
+    font-family:"Manrope";
     font-weight: 700;
     font-style: normal;
     src:local("Manrope"),
@@ -30,5 +41,3 @@
     url(../fonts/Manrope-Bold.ttf),
     url(../fonts/Manrope-Bold.eot);
 }
-
-/*todo добавить шрифт Manrope с font-weight = 500*/
