@@ -3,3 +3,5 @@
 
 # test-git-with-brackets
 Установка git на brackets - тест
+
+# test-git 2
