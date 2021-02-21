@@ -30,3 +30,14 @@
     url(../fonts/Manrope-Medium.ttf),
     url(../fonts/Manrope-Medium.eot);
 }
+
+@font-face {
+    font-family:"Manrope";
+    font-weight: 700;
+    font-style: normal;
+    src:local("Manrope"),
+    url(../fonts/Manrope-Bold.woff2),
+    url(../fonts/Manrope-Bold.woff),
+    url(../fonts/Manrope-Bold.ttf),
+    url(../fonts/Manrope-Bold.eot);
+}
