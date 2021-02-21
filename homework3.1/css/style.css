@@ -20,7 +20,13 @@ body {
     box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     padding: 0;
     margin: 0;
 }
@@ -45,7 +51,7 @@ h1,h2,h3,h4,h5,h6,p {
     padding-left: 10px;
 }
 
-.align-bottom img{
+.align-bottom img {
     vertical-align: bottom;
     padding-bottom: 10px;
 }
