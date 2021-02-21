@@ -1,11 +1,26 @@
+<<<<<<< HEAD
 :root {}
+=======
+:root {
+    /* переменные кнопок */
+    --main-text-color: #18191f;
+    --primary-button-bgcolor: #8c30f5;
+    /* переменные для размеров шрифта */
+    --base-font: normal 14px "Manrope-Regular", sans-serif;
+    --heading-font: normal 40px "Manrope-ExtraBold", sans-serif;
+    /* базовые величины внешних и внутренних отступов*/
+    --base-gap-s: 8px;
+    --base-gap-m: 16px;
+    --base-gap-l: 32px;
+}
+>>>>>>> origin/main
 
 body {
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    color: #18191F;
+    color: var(--main-text-color);
     box-sizing: border-box;
 }
 
