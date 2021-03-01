@@ -1,5 +1,47 @@
+$main-text-color: #18191f;
+
+$nav-bar-shadow: #e5e9f2;
+
+$secondary-text-color: #fff;
+$primary-button-bgcolor: #8c30f5;
+$primary-button-bgcolor-hover: #5a1ea0;
+$primary-button-bgcolor-focus: #5c3ea0;
+
+$base-font: 400 18px "Manrope", sans-serif;
+$nav-font: 700 14px "Manrope", sans-serif;
+$button-font: 700 20px "Manrope", sans-serif;
+$heading-font: 800 72px "Manrope", sans-serif;
+
+$container-width: 1110px;
+
 * {
 	margin: 0;
 	padding: 0;
 	border: 0px;
+}
+
+body {
+	font: $base-font;
+	color: $main-text-color;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: $container-width;
+	margin: 0 auto;
+}
+
+header {
+	box-shadow: 0 1px 0 $nav-bar-shadow;
+}
+
+.logo {
+	display: inline-block;
+}
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+}
+.badges {
+	display: inline-block;
 }

@@ -3,3 +3,37 @@
   padding: 0;
   border: 0px;
 }
+
+body {
+  font: 400 18px "Manrope", sans-serif;
+  color: #18191f;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+header {
+  -webkit-box-shadow: 0 1px 0 #e5e9f2;
+          box-shadow: 0 1px 0 #e5e9f2;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.badges {
+  display: inline-block;
+}
