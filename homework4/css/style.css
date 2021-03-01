@@ -18,6 +18,10 @@ a {
   cursor: pointer;
 }
 
+a:hover {
+  opacity: 0.7;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
