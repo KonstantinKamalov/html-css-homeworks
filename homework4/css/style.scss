@@ -26,6 +26,13 @@ body {
 	box-sizing: border-box;
 }
 
+a {
+	font: $nav-font;
+	color: $main-text-color;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 .container {
 	max-width: $container-width;
 	margin: 0 auto;
@@ -41,7 +48,9 @@ header {
 .nav-menu {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
+
 .badges {
 	display: inline-block;
 }
