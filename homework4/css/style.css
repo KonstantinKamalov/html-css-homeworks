@@ -1,57 +1,174 @@
+@charset "UTF-8";
 * {
-  margin: 0;
-  padding: 0;
-  border: 0px;
+	margin: 0;
+	padding: 0;
+	border: 0px;
 }
 
 body {
-  font: 400 18px "Manrope", sans-serif;
-  color: #18191f;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+	font: 400 18px "Manrope", sans-serif;
+	color: #18191f;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 a {
-  font: 700 14px "Manrope", sans-serif;
-  color: #18191f;
-  text-decoration: none;
-  cursor: pointer;
+	font: 700 14px "Manrope", sans-serif;
+	color: #18191f;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 a:hover {
-  opacity: 0.7;
+	opacity: 0.7;
+}
+
+.header {
+	-webkit-box-shadow: 0px 1px 0px #e5e9f2;
+	box-shadow: 0px 1px 0px #e5e9f2;
 }
 
 .container {
-  max-width: 1110px;
-  margin: 0 auto;
+	max-width: 1110px;
+	margin: 0 auto;
 }
 
-header {
-  -webkit-box-shadow: 0 1px 0 #e5e9f2;
-          box-shadow: 0 1px 0 #e5e9f2;
+.row-header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 16px 0;
 }
 
-.logo {
-  display: inline-block;
+.header-nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.logo__link:hover {
+	opacity: 1;
+}
+
+.logo__link img {
+	vertical-align: middle;
+}
+
+.logo__link img[alt="logo-text"] {
+	margin-left: 9px;
 }
 
 .nav-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	list-style-type: none;
 }
 
-.badges {
-  display: inline-block;
+.nav-menu li {
+	margin-left: 28px;
 }
 
-.col__text-align {
-  text-align: center;
+.nav-menu li:last-child {
+	margin-left: 8px;
+}
+
+.nav-menu img[alt="vector"] {
+	margin-bottom: 1px;
+}
+
+.banners {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.banners img:last-child {
+	margin-left: 13px;
+}
+
+.content {
+	padding: 197px 0;
+}
+
+.row-content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.left-section {
+	max-width: 540px;
+}
+
+.left-section__title {
+	font: 800 72px "Manrope", sans-serif;
+	margin: 16px 0;
+}
+
+.left-section__text {
+	margin-bottom: 32px;
+}
+
+.right-section__image {
+	background-image: url(../img/MobileMockup.png);
+	/* Путь к фоновому изображению */
+	background-color: #fff;
+	/* Цвет фона */
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin-left: 75px;
+}
+
+.user {
+	position: absolute;
+	border-radius: 10px;
+}
+
+#avatar-1 {
+	top: 16px;
+	left: -54px;
+}
+
+#avatar-2 {
+	bottom: 16px;
+	left: 47%;
+}
+
+.start-button {
+	background-color: #8c30f5;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+	padding: 16px 41px;
+	border-radius: 6px;
+	font: 400 18px "Manrope", sans-serif;
+}
+
+.start-button:hover {
+	background-color: #5a1ea0;
+}
+
+.start-button:focus {
+	background-color: #5c3ea0;
 }

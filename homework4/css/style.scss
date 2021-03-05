@@ -8,7 +8,7 @@ $primary-button-bgcolor-hover: #5a1ea0;
 $primary-button-bgcolor-focus: #5c3ea0;
 
 $base-font: 400 18px "Manrope", sans-serif;
-$nav-font: 700 14px "Manrope", sans-serif;
+$link-font: 700 14px "Manrope", sans-serif;
 $button-font: 700 20px "Manrope", sans-serif;
 $heading-font: 800 72px "Manrope", sans-serif;
 
@@ -27,7 +27,7 @@ body {
 }
 
 a {
-	font: $nav-font;
+	font: $link-font;
 	color: $main-text-color;
 	text-decoration: none;
 	cursor: pointer;
@@ -37,28 +37,127 @@ a:hover {
 	opacity: 0.7;
 }
 
+.header {
+	box-shadow: 0px 1px 0px #e5e9f2;
+}
+
 .container {
 	max-width: $container-width;
 	margin: 0 auto;
 }
 
-header {
-	box-shadow: 0 1px 0 $nav-bar-shadow;
-}
-
-.logo {
-	display: inline-block;
-}
-.nav-menu {
+.row-header {
 	display: flex;
 	justify-content: space-between;
+	padding: 16px 0;
+}
+
+.header-nav {
+	display: flex;
 	align-items: center;
 }
 
-.badges {
-	display: inline-block;
+.logo__link:hover {
+	opacity: 1;
 }
 
-.col__text-align {
-	text-align: center;
+.logo__link img {
+	vertical-align: middle;
+}
+
+.logo__link img[alt="logo-text"] {
+	margin-left: 9px;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+.nav-menu li {
+	margin-left: 28px;
+}
+
+.nav-menu li:last-child {
+	margin-left: 8px;
+}
+
+.nav-menu img[alt="vector"] {
+	margin-bottom: 1px;
+}
+
+.banners {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.banners img:last-child {
+	margin-left: 13px;
+}
+
+.content {
+	padding: 197px 0;
+}
+
+.row-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-section {
+	max-width: 540px;
+}
+
+.left-section__title {
+	font: $heading-font;
+	margin: 16px 0;
+}
+
+.left-section__text {
+	margin-bottom: 32px;
+}
+
+.right-section__image {
+	background-image: url(../img/MobileMockup.png); /* Путь к фоновому изображению */
+	background-color: #fff; /* Цвет фона */
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin-left: 75px;
+}
+
+.user {
+	position: absolute;
+	border-radius: 10px;
+}
+
+#avatar-1 {
+	top: 16px;
+	left: -54px;
+}
+
+#avatar-2 {
+	bottom: 16px;
+	left: 47%;
+}
+
+.start-button {
+	background-color: $primary-button-bgcolor;
+	color: $secondary-text-color;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+	padding: 16px 41px;
+	border-radius: 6px;
+	font: $base-font;
+}
+
+.start-button:hover {
+	background-color: $primary-button-bgcolor-hover;
+}
+
+.start-button:focus {
+	background-color: $primary-button-bgcolor-focus;
 }
